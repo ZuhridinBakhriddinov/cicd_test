@@ -13,6 +13,10 @@ public class StudentController {
 
     @GetMapping
     public List<Student> getStudent() {
-         return List.of(new Student("Alisher", 22), new Student("Baxtiyor", 23));
+         return List.of(new Student("Alisher", 22),
+                 new Student("Baxtiyor", 23),
+                 new Student("Gani", 24)
+
+         );
     }
 }
